@@ -29,12 +29,20 @@
 body {
     min-height: 100vh;
     width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .card {
-    display: flex;
-
+    border: 1px solid blue;
+    
 }
