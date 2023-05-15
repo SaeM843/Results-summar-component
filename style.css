@@ -37,16 +37,19 @@ main {
 .wrap {
     display: flex;
     width: 620px;
+    box-shadow: 5px 15px 10px hsl(221, 100%, 96%);
+    border-radius: 25px;
 }
 
 
 /* Left Card */
 
 .card-result {
-    border-radius: 15px;
+    border-radius: 30px;
     background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
     color: white;
     text-align: center;
+    width: 50%;
 }
 
 .result-title {
@@ -88,4 +91,55 @@ main {
 .result-info {
     color: var(--light-lavender);
 }
+
+
 /* Right Card */
+.card-summary {
+    width: 50%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.summary-title {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.card-summary span {
+    text-align: left; 
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 80%;
+    border-radius: 10%;
+}
+
+li p {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+#reaction {
+    color: var(--light-red);
+    background-color: rgba(255, 87, 87, 0.08);
+}
+
+#memory {
+    color: var(--orangey-yellow);
+    background-color: hsla(39, 100%, 56%,0.08);
+}
+
+#verbal {
+    color: var(--green-teal);
+    background-color: hsla(166, 100%, 37%,0.08);
+}
+
+#visual {
+    color: var(--cobalt-blue);
+    background-color: hsl(234, 85%, 45%,0.08);
+}
