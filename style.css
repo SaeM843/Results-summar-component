@@ -24,12 +24,12 @@
     font-family: "Hanken Grotesk", sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 
 body {
     min-height: 100vh;
     width: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,8 +40,32 @@ main {
     background: white; 
 }
 
+/* Left Card */
+
 .card-result {
     width: 370px;
     border-radius: 15px;
     background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
+
+.result-score {
+    background: linear-gradient(var(--violet-blue), var(--persian-blue));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 160px;
+    height: 160px;
+}
+
+.score {
+    font-size: 64px;
+}
+
+/* Right Card */
