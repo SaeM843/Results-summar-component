@@ -27,18 +27,19 @@
     font-size: 18px;
 }
 
-body {
+main {
     min-height: 100vh;
-    width: 100%;
     display: flex;
+    background: white;
     justify-content: center;
     align-items: center;
 }
 
-main {
+.wrap {
     display: flex;
-    background: white; 
+    width: 620px;
 }
+
 
 /* Left Card */
 .primary-card {
