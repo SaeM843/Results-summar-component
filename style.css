@@ -41,6 +41,9 @@ main {
 }
 
 /* Left Card */
+.primary-card {
+    border: 1px solid green;
+}
 
 .card-result {
     width: 370px;
@@ -51,6 +54,7 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
+    border: 2px solid black;
 }
 
 .result-score {
@@ -68,4 +72,12 @@ main {
     font-size: 64px;
 }
 
+h3 {
+    margin-top: 10px;
+}
+
+.result-info {
+    color: var(--light-lavender);
+    text-align: center;
+}
 /* Right Card */
