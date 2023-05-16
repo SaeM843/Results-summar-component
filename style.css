@@ -170,3 +170,7 @@ li span b {
     border-radius: 20px;
     cursor: pointer;
 }
+
+.btn:hover {
+    background-color: hsl(233, 54%, 16%);
+}
