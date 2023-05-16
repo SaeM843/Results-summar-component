@@ -21,18 +21,18 @@
 
 * {
     box-sizing: border-box;
-    font-family: "Hanken Grotesk", sans-serif;
-    /* font-size: 18px; 
-    border: 1px solid black; */
     margin: 0;
     padding: 0;
 }
 
 body {
-    
+    font-family: 'Hanken Grotesk',sans-serif;
+    min-height: 100vh;
+    background-color: rgba(240, 248, 255, 0.432);
 }
 
 main {
+    font-family: "Hanken Grotesk", sans-serif;
     min-height: 100vh;
     display: flex;
     background: white;
