@@ -58,7 +58,7 @@ body {
 }
 
 .result-title {
-    font-size: 1.3rem;
+    font-size: 18px;
     margin-top: 10px;
     color: var(--light-lavender);
 }
