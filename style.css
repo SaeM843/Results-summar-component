@@ -66,11 +66,15 @@ body {
 .result-score {
     background: linear-gradient(var(--violet-blue), var(--persian-blue));
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     margin: 30px auto;
     font-size: 4rem;
     font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .result-score span {
@@ -79,9 +83,6 @@ body {
     font-weight: 400;
 }
 
-.result-score p {
-    transform: translateY(50px);
-}
 
 .score-info {
     padding: 0 20px;
@@ -89,12 +90,17 @@ body {
 }
 
 .score-info h2 {
-    font-size: 2rem;
+    font-size: 25px;
     font-weight: 700;
+    margin-top: -18px;
+    margin-bottom: -6px;
 }
 
 .result-info {
     color: var(--light-lavender);
+    text-align: center;
+    font-size: 15px;
+    padding: 16px;
 }
 
 
