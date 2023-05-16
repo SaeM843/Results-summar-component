@@ -24,6 +24,12 @@
     font-family: "Hanken Grotesk", sans-serif;
     /* font-size: 18px; 
     border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
 }
 
 main {
@@ -32,6 +38,8 @@ main {
     background: white;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    border: 1px solid red;
 }
 
 .wrap {
@@ -116,6 +124,7 @@ ul {
 li {
     width: 80%;
     border-radius: 10%;
+    margin-bottom: 10px;
 }
 
 li p {
