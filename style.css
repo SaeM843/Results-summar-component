@@ -183,3 +183,18 @@ li span b {
 .btn:hover {
     background-color: hsl(233, 54%, 16%);
 }
+
+@media screen and (max-width:598px) {
+    .container{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .card-result, .card-summary{
+        max-width: 100%;
+    }
+    
+  }  
