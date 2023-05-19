@@ -124,8 +124,8 @@ ul {
 }
 
 li {
-    border-radius: 5%;
-    margin: 8px 10px 18px 10px;
+    border-radius: 0.75rem;
+    margin: 8px 10px 18px 0px;
     font-weight: 700;
     padding: 13px;
 }
@@ -145,6 +145,7 @@ img {
 
 li span b {
     color: hsl(224, 30%, 27%);
+
 }
 
 #reaction {
